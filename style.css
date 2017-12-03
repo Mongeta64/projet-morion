@@ -1,0 +1,35 @@
+body {
+	background:#4b0b1794;
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+}
+
+.menu_button {
+	color: white;
+	background: blue;
+	border-radius: 10px;
+}
+
+.head {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+
+.img {
+	width: 20%;
+}
+
+.txt {
+	display: flex;
+	justify-content: center;
+	color: black;
+	background: #a14015;
+	width: 30%;
+	font-family: verdana;
+	border-radius:7px;
+	font-size: 33px;
+    font-weight: 500;
+}

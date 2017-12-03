@@ -1,6 +1,7 @@
 Vagrant.configure("2") do |config|
   config.vm.box = "hashicorp/precise32"
-  config.vm.network "forwarded_port", guest: 80, host: 8080
+  config.vm.network "forwarded_port", guest: 8080, host: 8080
+  config.vm.network "forwarded_port", guest: 8181, host: 8181
   config.vm.hostname = "myprecise.box"
   config.vm.network :private_network, ip: "192.168.12.43"
   config.vm.synced_folder ".", "/vagrant"
