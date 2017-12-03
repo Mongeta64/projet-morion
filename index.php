@@ -1,24 +1,19 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>morpion war</title>
-	<meta charset="UTF-8">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="icon" type="image" href="shadowgun-icone.jpg" />
-</head>
 
-<header class="head" ><span class="txt">morpion war</span><a class="home_link" href="/"><img class="img" src="shadowgun-icone.jpg"/></a></header>
-
-<nav class="menu">
-	<a class="menu_button" href="nouvelle_partie.php">nouvelle partie</a>
-	<a class="menu_button" href="creer_une_equipe">créer une équipe</a>
-	<a class="menu_button" href="creer_un_morpion">créer un morpion</a>
-</nav>
-
-<body>
 <?php
-echo "teste";
-?>
-</body>
+$contenu = 
 
-</html>
+"Bienvenue à toi, morpion des profondeurs !
+Ce site te permettra, à toi et tes amis, de pouvoir tester en avant première mondiale notre jeu de morpions avancés.
+
+Pour cela, il te faudra tout dabord créer des morpions pour pouvoir ensuite créer une équipe allant de 4 à 8 morpions (au fur et à mesure des parties, tu pourras choisir des morpions créés pour d'autres équipes !)
+
+3 classes de morpions s'offriront à toi :
+ - Les guerriers : (description des guerriers)
+ - Les archers : (description des archers)
+ - Les mages : (description des mages)
+
+Une fois ton équipe et celle de ton adversaire créées, il vous faudra choisir entre une grille 3x3 ou une grille 4x4 pour votre champ de batailles.
+
+Ensuite, le combat pourra enfin commencer !";
+include 'base.php';
+?>
