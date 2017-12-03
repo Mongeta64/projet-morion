@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>morpion war</title>
+	<title>De Profundis Morpionibus</title>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="icon" type="image" href="shadowgun-icone.jpg" />
+	<link rel="icon" type="image" href="morpion.png" />
 </head>
 
-<header class="head" ><span class="txt">morpion war</span><a class="home_link" href="/"><img class="img" src="shadowgun-icone.jpg"/></a></header>
+<header class="head" ><span class="txt">De Profundis Morpionibus</span><a class="home_link" href="/"><img class="img" src="morpion.png"/></a></header>
 
 <nav class="menu">
 	<a class="menu_button" href="nouvelle_partie.php">nouvelle partie</a>
