@@ -1,8 +1,9 @@
 
 <?php
-$contenu = 
+ob_start();
+?>
 
-"Bienvenue à toi, morpion des profondeurs !
+<p>Bienvenue à toi, morpion des profondeurs !
 Ce site te permettra, à toi et tes amis, de pouvoir tester en avant première mondiale notre jeu de morpions avancés.
 
 Pour cela, il te faudra tout dabord créer des morpions pour pouvoir ensuite créer une équipe allant de 4 à 8 morpions (au fur et à mesure des parties, tu pourras choisir des morpions créés pour d'autres équipes !)
@@ -14,6 +15,11 @@ Pour cela, il te faudra tout dabord créer des morpions pour pouvoir ensuite cr�
 
 Une fois ton équipe et celle de ton adversaire créées, il vous faudra choisir entre une grille 3x3 ou une grille 4x4 pour votre champ de batailles.
 
-Ensuite, le combat pourra enfin commencer !";
+Ensuite, le combat pourra enfin commencer !
+</p>
+
+<?php
+$contenu = ob_get_clean();
+ob_end_clean();
 include 'base.php';
 ?>
